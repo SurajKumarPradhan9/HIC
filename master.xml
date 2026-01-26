@@ -11,20 +11,20 @@
         <!--Cross Browser Testing(Just change the value of browser(chrome,edge,firefox..etc))-->
         <parameter name="browser" value="chrome"/>
 
-<!--        <packages>-->
-<!--            <package name="testCases"/>-->
-<!--        </packages>-->
+        <packages>
+            <package name="testCases"/>
+        </packages>
 
-        <classes>
-            <class name="testCases.TC001_URL_ValidationTest"/>
-            <class name="testCases.TC002_HomePageValidationTest"/>
-            <class name="testCases.TC003_HeartPulsePageValidationTest"/>
-            <class name="testCases.TC004_BloodPressurePageValidationTest"/>
-            <class name="testCases.TC005_AgeFactorPageValidationTest"/>
-            <class name="testCases.TC006_TeamDetailsPageValidationTest"/>
-            <class name="testCases.TC007_CalculatorValidationTest"/>
-            <class name="testCases.TC008_ResultPageValidationTest"/>
-        </classes>
+<!--        <classes>-->
+<!--            <class name="testCases.TC001_URL_ValidationTest"/>-->
+<!--            <class name="testCases.TC002_HomePageValidationTest"/>-->
+<!--            <class name="testCases.TC003_HeartPulsePageValidationTest"/>-->
+<!--            <class name="testCases.TC004_BloodPressurePageValidationTest"/>-->
+<!--            <class name="testCases.TC005_AgeFactorPageValidationTest"/>-->
+<!--            <class name="testCases.TC006_TeamDetailsPageValidationTest"/>-->
+<!--            <class name="testCases.TC007_CalculatorValidationTest"/>-->
+<!--            <class name="testCases.TC008_ResultPageValidationTest"/>-->
+<!--        </classes>-->
 
     </test>
 </suite>
