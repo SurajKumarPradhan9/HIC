@@ -1,0 +1,15 @@
+🤖 AI FAILURE ANALYSIS
+========================
+
+**ROOT CAUSE:**  
+The test failed because invalid inputs (e.g., "0" for Param 2 and "Negative" for Param 4/5) were not handled correctly by the application. Instead of showing an error or validation message, the application navigated to the result page, which violates expected behavior.
+
+**SOLUTION:**  
+1. Verify the application's input validation logic for edge cases like zero or negative values.  
+2. Update the application to block invalid inputs and display appropriate error messages.  
+3. Enhance the test to explicitly check for validation messages or error states when invalid inputs are provided.
+
+**PREVENTION:**  
+1. Add boundary and negative test cases to validate input handling during development.  
+2. Implement stricter input validation at both frontend and backend levels.  
+3. Regularly review and update test data to include edge cases and invalid scenarios.

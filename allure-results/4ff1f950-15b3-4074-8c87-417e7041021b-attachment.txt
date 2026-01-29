@@ -1,0 +1,15 @@
+🤖 AI FAILURE ANALYSIS
+========================
+
+**ROOT CAUSE:**  
+The test failed because invalid input (`0/0`) was not handled correctly by the application. Instead of showing an error or staying on the input page, the application navigated to the result page, violating expected behavior.
+
+**SOLUTION:**  
+1. Update the application logic to validate inputs like `0/0` and prevent navigation to the result page for invalid data.  
+2. Add proper error messages or input validation checks for invalid formats.  
+3. Enhance the test to explicitly verify that invalid inputs trigger an error and do not proceed further.
+
+**PREVENTION:**  
+1. Implement comprehensive input validation at both the frontend and backend.  
+2. Extend test coverage to include edge cases like invalid formats, division by zero, and negative values.  
+3. Regularly review and update test data to include boundary and invalid cases.

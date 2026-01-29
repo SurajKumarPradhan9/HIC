@@ -1,4 +1,3 @@
-
 package testCases;
 
 import org.openqa.selenium.Alert;
@@ -37,11 +36,44 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void URLAndTitle_Matched() {
         log.info("TC007_CalculatorValidationTest - Starting test: URLAndTitle_Matched");
-        boolean expectedUrlMatched   = isUrlMatching(expectedUrl);
-        boolean expectedTitleMatched = isTitleMatching(expectedTitle);
 
-        Assert.assertTrue(expectedUrlMatched, "URL not matched. Actual: " + driver.getCurrentUrl());
-        Assert.assertTrue(expectedTitleMatched, "Title not matched. Actual: " + driver.getTitle());
+        // STEP 1: Validate URL
+        try {
+            log.info("STEP 1 ➜ Validate current URL matches expected");
+            log.debug("Expected URL: {}", expectedUrl);
+
+            boolean expectedUrlMatched = isUrlMatching(expectedUrl);
+            String actualUrl = driver.getCurrentUrl();
+            log.debug("Actual URL: {}", actualUrl);
+
+            Assert.assertTrue(expectedUrlMatched, "URL not matched. Actual: " + actualUrl);
+            log.info("PASS ✓ STEP 1: URL matched");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (URL validation): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (URL validation) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error during URL validation: " + e.getMessage(), e);
+        }
+
+        // STEP 2: Validate Title
+        try {
+            log.info("STEP 2 ➜ Validate page title matches expected");
+            log.debug("Expected Title: {}", expectedTitle);
+
+            boolean expectedTitleMatched = isTitleMatching(expectedTitle);
+            String actualTitle = driver.getTitle();
+            log.debug("Actual Title: {}", actualTitle);
+
+            Assert.assertTrue(expectedTitleMatched, "Title not matched. Actual: " + actualTitle);
+            log.info("PASS ✓ STEP 2: Title matched");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (Title validation): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (Title validation) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error during Title validation: " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -51,8 +83,21 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void isHeaderPresent() {
         log.info("TC007_CalculatorValidationTest - Starting test: isHeaderPresent");
-        boolean headerPresent = h.isHeaderPresent();
-        Assert.assertTrue(headerPresent, "Header not present");
+
+        try {
+            log.info("STEP ➜ Validate Header is present/visible");
+            boolean headerPresent = h.isHeaderPresent();
+            log.debug("Header present: {}", headerPresent);
+
+            Assert.assertTrue(headerPresent, "Header not present");
+            log.info("PASS ✓ STEP: Header present");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ (Header present): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ (Header present) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while checking Header presence: " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -62,9 +107,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToHomeViaLogoText() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToHomeViaLogoText");
-        h.clickLogoText();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#container"), "Expected '#container' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Logo Text");
+            h.clickLogoText();
+            log.info("PASS ✓ STEP 1: Clicked Logo Text");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Logo Text): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Logo Text) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Logo Text: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#container'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#container"),
+                    "Expected '#container' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#container'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#container'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#container') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#container': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -74,9 +144,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToHome() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToHome");
-        h.goToHome();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#container"), "Expected '#container' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Home");
+            h.goToHome();
+            log.info("PASS ✓ STEP 1: Clicked Home");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Home): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Home) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Home: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#container'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#container"),
+                    "Expected '#container' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#container'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#container'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#container') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#container': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -86,9 +181,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToHeartPulse() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToHeartPulse");
-        h.goToHeartPulse();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#pulseRate"), "Expected '#pulseRate' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Heart Pulse");
+            h.goToHeartPulse();
+            log.info("PASS ✓ STEP 1: Clicked Heart Pulse");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Heart Pulse): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Heart Pulse) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Heart Pulse: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#pulseRate'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#pulseRate"),
+                    "Expected '#pulseRate' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#pulseRate'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#pulseRate'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#pulseRate') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#pulseRate': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -98,9 +218,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToBloodPressure() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToBloodPressure");
-        h.goToBloodPressure();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#bloodPressure"), "Expected '#bloodPressure' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Blood Pressure");
+            h.goToBloodPressure();
+            log.info("PASS ✓ STEP 1: Clicked Blood Pressure");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Blood Pressure): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Blood Pressure) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Blood Pressure: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#bloodPressure'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#bloodPressure"),
+                    "Expected '#bloodPressure' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#bloodPressure'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#bloodPressure'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#bloodPressure') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#bloodPressure': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -110,9 +255,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToAgeFactor() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToAgeFactor");
-        h.goToAgeFactor();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#ageFactor"), "Expected '#ageFactor' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Age Factor");
+            h.goToAgeFactor();
+            log.info("PASS ✓ STEP 1: Clicked Age Factor");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Age Factor): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Age Factor) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Age Factor: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#ageFactor'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#ageFactor"),
+                    "Expected '#ageFactor' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#ageFactor'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#ageFactor'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#ageFactor') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#ageFactor': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -122,9 +292,34 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void goToTeamDetails() {
         log.info("TC007_CalculatorValidationTest - Starting test: goToTeamDetails");
-        h.goToTeamDetails();
-        String currentUrl = driver.getCurrentUrl();
-        Assert.assertTrue(currentUrl.contains("#foot"), "Expected '#foot' in URL. Actual: " + currentUrl);
+
+        try {
+            log.info("STEP 1 ➜ Click Team Details");
+            h.goToTeamDetails();
+            log.info("PASS ✓ STEP 1: Clicked Team Details");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Click Team Details): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 1 (Click Team Details) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Team Details: " + e.getMessage(), e);
+        }
+
+        try {
+            log.info("STEP 2 ➜ Validate URL contains '#foot'");
+            String currentUrl = driver.getCurrentUrl();
+            log.debug("Current URL: {}", currentUrl);
+
+            Assert.assertTrue(currentUrl.contains("#foot"),
+                    "Expected '#foot' in URL. Actual: " + currentUrl);
+            log.info("PASS ✓ STEP 2: URL contains '#foot'");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (URL contains '#foot'): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (URL contains '#foot') threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating URL for '#foot': " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -134,8 +329,21 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void isLeftImagePresent() {
         log.info("TC007_CalculatorValidationTest - Starting test: isLeftImagePresent");
-        boolean leftImagepresent = hp.isleftImagePresent();
-        Assert.assertTrue(leftImagepresent, "Left image not present");
+
+        try {
+            log.info("STEP ➜ Validate Left Image is present/visible");
+            boolean leftImagepresent = hp.isleftImagePresent();
+            log.debug("Left image present: {}", leftImagepresent);
+
+            Assert.assertTrue(leftImagepresent, "Left image not present");
+            log.info("PASS ✓ STEP: Left image present");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ (Left image present): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ (Left image present) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while checking Left image presence: " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -145,8 +353,21 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void isCalculatorFormPresent() {
         log.info("TC007_CalculatorValidationTest - Starting test: isCalculatorFormPresent");
-        boolean calcFormPresent = cf.isCalculatorFormPresent();
-        Assert.assertTrue(calcFormPresent, "Calculator form not present");
+
+        try {
+            log.info("STEP ➜ Validate Calculator Form is present/visible");
+            boolean calcFormPresent = cf.isCalculatorFormPresent();
+            log.debug("Calculator form present: {}", calcFormPresent);
+
+            Assert.assertTrue(calcFormPresent, "Calculator form not present");
+            log.info("PASS ✓ STEP: Calculator form present");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ (Calculator form present): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ (Calculator form present) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while checking Calculator form presence: " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -156,8 +377,21 @@ public class TC007_CalculatorValidationTest extends BaseTest {
     )
     public void hasCalculatorFieldsAndWorking() {
         log.info("TC007_CalculatorValidationTest - Starting test: hasCalculatorFieldsAndWorking");
-        boolean calculatorFieldsAndWorking = cf.hasCalculatorFieldsAndWorking();
-        Assert.assertTrue(calculatorFieldsAndWorking, "Calculator fields not working");
+
+        try {
+            log.info("STEP ➜ Validate Calculator fields and basic interactions");
+            boolean calculatorFieldsAndWorking = cf.hasCalculatorFieldsAndWorking();
+            log.debug("Calculator fields working: {}", calculatorFieldsAndWorking);
+
+            Assert.assertTrue(calculatorFieldsAndWorking, "Calculator fields not working");
+            log.info("PASS ✓ STEP: Calculator fields working as expected");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ (Calculator fields working): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ (Calculator fields working) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while validating Calculator fields: " + e.getMessage(), e);
+        }
     }
 
     @Test(
@@ -172,8 +406,11 @@ public class TC007_CalculatorValidationTest extends BaseTest {
 
         log.info("TC007_CalculatorValidationTest - Starting test: setDataAndCalculate");
 
-        // Enter inputs
+        // STEP 1: Enter inputs
         try {
+            log.info("STEP 1 ➜ Enter input values (age, pulse, bp)");
+            log.debug("Age: {}, Pulse: {}, BP: {}", age, pulse, bp);
+
             log.info("Entering Age: " + age);
             cf.enterAge(age);
 
@@ -182,78 +419,131 @@ public class TC007_CalculatorValidationTest extends BaseTest {
 
             log.info("Entering Blood Pressure: " + bp);
             cf.enterBloodPressure(bp);
+
+            log.info("PASS ✓ STEP 1: Entered all inputs");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 1 (Enter inputs): {}", ae.getMessage(), ae);
+            throw ae;
         } catch (Exception ex) {
-            log.error("Exception while entering input values: " + ex.getMessage());
+            log.error("ERROR ✗ STEP 1 (Enter inputs) threw unexpected exception: {}", ex.getMessage(), ex);
+            Assert.fail("Unexpected error while entering input values: " + ex.getMessage(), ex);
         }
 
         String type = testType.toLowerCase();
         SoftAssert sa = new SoftAssert();
 
-        // Trigger calculation
-        log.info("Clicking Calculate button");
-        cf.clickCalculate();
+        // STEP 2: Click calculate
+        try {
+            log.info("STEP 2 ➜ Clicking Calculate button");
+            cf.clickCalculate();
+            log.info("PASS ✓ STEP 2: Clicked Calculate");
+        } catch (AssertionError ae) {
+            log.error("ASSERTION FAILED ✗ STEP 2 (Click Calculate): {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 2 (Click Calculate) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while clicking Calculate: " + e.getMessage(), e);
+        }
 
-        // Alert handling
+        // STEP 3: Alert handling (if any)
         Alert alert = null;
         try {
-            log.info("Waiting for alert presence (3 seconds)");
+            log.info("STEP 3 ➜ Waiting for alert presence (3 seconds)");
             alert = new WebDriverWait(driver, Duration.ofSeconds(3))
                     .until(ExpectedConditions.alertIsPresent());
         } catch (TimeoutException ignored) {
             log.error("No alert appeared within timeout");
+        } catch (Exception e) {
+            log.error("ERROR ✗ STEP 3 (Wait for alert) threw unexpected exception: {}", e.getMessage(), e);
+            Assert.fail("Unexpected error while waiting for alert: " + e.getMessage(), e);
         }
 
         boolean validInputs = type.equalsIgnoreCase("positive");
         boolean invalidInputs = type.equalsIgnoreCase("negative");
 
         if (alert != null) {
-            log.info("Alert appeared. Accepting alert.");
-            alert.accept();
-            if (invalidInputs) {
-                log.info("Alert appeared for invalid inputs as expected");
-                sa.assertTrue(true, "Invalid inputs are generating alerts");
-            } else if (validInputs) {
-                log.error("Unexpected alert for valid inputs");
-                sa.fail("Valid inputs are generating alerts");
-            } else {
-                log.error("Unrecognized test type: " + testType);
-                sa.fail("Unrecognized test type led to alert handling ambiguity");
+            try {
+                log.info("Alert appeared. Accepting alert.");
+                alert.accept();
+
+                if (invalidInputs) {
+                    log.info("Alert appeared for invalid inputs as expected");
+                    sa.assertTrue(true, "Invalid inputs are generating alerts");
+                } else if (validInputs) {
+                    log.error("Unexpected alert for valid inputs");
+                    sa.fail("Valid inputs are generating alerts");
+                } else {
+                    log.error("Unrecognized test type: " + testType);
+                    sa.fail("Unrecognized test type led to alert handling ambiguity");
+                }
+            } catch (AssertionError ae) {
+                log.error("ASSERTION FAILED ✗ (Alert handling): {}", ae.getMessage(), ae);
+                throw ae;
+            } catch (Exception e) {
+                log.error("ERROR ✗ (Alert handling) threw unexpected exception: {}", e.getMessage(), e);
+                Assert.fail("Unexpected error while handling alert: " + e.getMessage(), e);
             }
         } else {
-            log.info("No alert appeared. Verifying navigation result.");
-            String currUrl = driver.getCurrentUrl();
+            // STEP 4: Validate navigation (no alert scenario)
+            String currUrl;
+            try {
+                log.info("STEP 4 ➜ No alert appeared. Verifying navigation result.");
+                currUrl = driver.getCurrentUrl();
+                log.info("Current URL: " + currUrl);
+            } catch (Exception e) {
+                log.error("ERROR ✗ STEP 4 (Get current URL) threw unexpected exception: {}", e.getMessage(), e);
+                Assert.fail("Unexpected error while reading current URL: " + e.getMessage(), e);
+                return; // Assert.fail throws, but return for clarity
+            }
+
             String resultUrl = "https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html";
-            log.info("Current URL: " + currUrl);
 
             if (validInputs) {
                 log.info("Expecting navigation to result page for valid inputs");
                 boolean navigated = currUrl.equals(resultUrl);
+
                 if (navigated) {
                     log.info("Navigation to result page succeeded for valid inputs");
                     sa.assertTrue(true, "Valid inputs navigated to the result page");
-                    log.info("Navigating back to the previous page");
-                    driver.navigate().back();
+
+                    try {
+                        log.info("Navigating back to the previous page");
+                        driver.navigate().back();
+                    } catch (Exception e) {
+                        log.error("ERROR while navigating back after valid flow: {}", e.getMessage(), e);
+                        Assert.fail("Unexpected error while navigating back: " + e.getMessage(), e);
+                    }
                 } else {
                     log.error("Navigation to result page failed for valid inputs");
                     sa.fail("Valid inputs did not navigate to the result page");
                 }
+
             } else if (invalidInputs) {
                 log.info("Expecting no navigation to result page for invalid inputs");
                 boolean navigated = currUrl.equals(resultUrl);
+
                 if (navigated) {
                     log.error("Unexpected navigation to result page for invalid inputs");
                     sa.fail("Invalid inputs navigated to the result page");
-                    log.info("Navigating back to the previous page");
-                    driver.navigate().back();
+
+                    try {
+                        log.info("Navigating back to the previous page");
+                        driver.navigate().back();
+                    } catch (Exception e) {
+                        log.error("ERROR while navigating back after invalid flow: {}", e.getMessage(), e);
+                        Assert.fail("Unexpected error while navigating back: " + e.getMessage(), e);
+                    }
                 } else {
                     log.info("No navigation occurred for invalid inputs as expected");
                     sa.assertTrue(true, "Invalid inputs did not navigate to the result page");
                 }
+
             } else {
                 log.error("Unrecognized test type: " + testType);
                 sa.fail("Unrecognized test type: " + testType);
             }
         }
+
         sa.assertAll();
 
         /*

@@ -1,28 +1,28 @@
+# ----- Maven -----
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# ----- Kotlin -----
 .kotlin
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# ----- IntelliJ IDEA -----
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### Eclipse ###
+# ----- Eclipse -----
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# ----- NetBeans -----
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -32,8 +32,21 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# ----- VS Code -----
 .vscode/
 
-### Mac OS ###
-.DS_Storesrc/test/resources/config.properties
+# ----- Mac OS -----
+.DS_Store
+
+# ----- Local secrets (DO NOT COMMIT) -----
+# Ignore config.properties anywhere in resources (main or test)
+src/**/resources/config.properties
+
+# ----- Automation generated files -----
+allure-results/
+allure-report/
+reports/
+logs/
+screenshots/
+test-output/
+*.log

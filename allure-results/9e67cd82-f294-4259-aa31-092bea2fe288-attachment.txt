@@ -1,0 +1,15 @@
+🤖 AI FAILURE ANALYSIS
+========================
+
+**ROOT CAUSE:**  
+The test failed because invalid inputs (e.g., "160/91" and "Negative") were accepted by the application, allowing navigation to the result page instead of displaying an error or validation message. The application likely lacks proper input validation for these fields.
+
+**SOLUTION:**  
+1. Update the application to validate inputs for numerical fields (e.g., reject "160/91" and "Negative").  
+2. Modify the test to assert that invalid inputs trigger appropriate error messages and prevent navigation.  
+3. Add logging or debugging to confirm input validation logic is executed during the test.
+
+**PREVENTION:**  
+1. Implement stricter input validation checks in the application for all user inputs.  
+2. Enhance test coverage by including edge cases and invalid input scenarios in automated tests.  
+3. Regularly review test data for accuracy and alignment with expected input formats.
