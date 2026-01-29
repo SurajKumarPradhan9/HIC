@@ -1,420 +1,423 @@
-2026-01-28 10:12:14 INFO  TC001_URL_ValidationTest:30 - TC001_URL_ValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:12:14 INFO  TC001_URL_ValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:12:14 INFO  TC001_URL_ValidationTest:45 - TC001_URL_ValidationTest - Starting test: urlWorking
-2026-01-28 10:12:15 INFO  TC001_URL_ValidationTest:119 - urlWorking - PASSED
-2026-01-28 10:12:19 INFO  TC001_URL_ValidationTest:106 - Driver quit successfully
-2026-01-28 10:12:26 INFO  TC002_HomePageValidationTest:32 - TC002_HomePageValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:12:26 INFO  TC002_HomePageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:12:26 INFO  TC002_HomePageValidationTest:46 - TC002_HomePageValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:12:26 INFO  TC002_HomePageValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:57 - TC002_HomePageValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:69 - TC002_HomePageValidationTest - Starting test: goToHome
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:119 - goToHome - PASSED
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:81 - TC002_HomePageValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:12:27 INFO  TC002_HomePageValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:12:28 INFO  TC002_HomePageValidationTest:93 - TC002_HomePageValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:12:28 INFO  TC002_HomePageValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:12:28 INFO  TC002_HomePageValidationTest:105 - TC002_HomePageValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:12:28 INFO  TC002_HomePageValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:12:28 INFO  TC002_HomePageValidationTest:117 - TC002_HomePageValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:129 - TC002_HomePageValidationTest - Starting test: isLeftImagePresent
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:119 - isLeftImagePresent - PASSED
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:140 - TC002_HomePageValidationTest - Starting test: isCalculatorFormPresent
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:119 - isCalculatorFormPresent - PASSED
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:151 - TC002_HomePageValidationTest - Starting test: hasCalculatorFieldsAndWorking
-2026-01-28 10:12:29 INFO  TC002_HomePageValidationTest:119 - hasCalculatorFieldsAndWorking - PASSED
-2026-01-28 10:12:33 INFO  TC002_HomePageValidationTest:106 - Driver quit successfully
-2026-01-28 10:12:40 INFO  TC003_HeartPulsePageValidationTest:30 - TC003_HeartPulsePageValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:12:40 INFO  TC003_HeartPulsePageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:12:40 INFO  TC003_HeartPulsePageValidationTest:44 - TC003_HeartPulsePageValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:12:40 INFO  TC003_HeartPulsePageValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:12:40 INFO  TC003_HeartPulsePageValidationTest:55 - TC003_HeartPulsePageValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:67 - TC003_HeartPulsePageValidationTest - Starting test: isHeadingPresent
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - isHeadingPresent - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:78 - TC003_HeartPulsePageValidationTest - Starting test: isSubHeadingPresent
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - isSubHeadingPresent - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:89 - TC003_HeartPulsePageValidationTest - Starting test: isInfoPresent
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - isInfoPresent - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:100 - TC003_HeartPulsePageValidationTest - Starting test: isTablePresent
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - isTablePresent - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:111 - TC003_HeartPulsePageValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:12:41 INFO  TC003_HeartPulsePageValidationTest:123 - TC003_HeartPulsePageValidationTest - Starting test: goToHome
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:119 - goToHome - PASSED
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:135 - TC003_HeartPulsePageValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:147 - TC003_HeartPulsePageValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:12:42 INFO  TC003_HeartPulsePageValidationTest:159 - TC003_HeartPulsePageValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:12:43 INFO  TC003_HeartPulsePageValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:12:47 INFO  TC003_HeartPulsePageValidationTest:106 - Driver quit successfully
-2026-01-28 10:12:55 INFO  TC004_BloodPressurePageValidationTest:30 - TC004_BloodPressurePageValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:12:55 INFO  TC004_BloodPressurePageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:12:55 INFO  TC004_BloodPressurePageValidationTest:45 - TC004_BloodPressurePageValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:56 - TC004_BloodPressurePageValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:69 - TC004_BloodPressurePageValidationTest - Starting test: isHeadingPresent
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - isHeadingPresent - PASSED
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:80 - TC004_BloodPressurePageValidationTest - Starting test: isInfoPresent
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - isInfoPresent - PASSED
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:91 - TC004_BloodPressurePageValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:104 - TC004_BloodPressurePageValidationTest - Starting test: goToHome
-2026-01-28 10:12:56 INFO  TC004_BloodPressurePageValidationTest:119 - goToHome - PASSED
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:117 - TC004_BloodPressurePageValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:130 - TC004_BloodPressurePageValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:143 - TC004_BloodPressurePageValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:12:57 INFO  TC004_BloodPressurePageValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:13:01 INFO  TC004_BloodPressurePageValidationTest:106 - Driver quit successfully
-2026-01-28 10:13:08 INFO  TC005_AgeFactorPageValidationTest:30 - TC005_AgeFactorPageValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:13:08 INFO  TC005_AgeFactorPageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:13:08 INFO  TC005_AgeFactorPageValidationTest:44 - TC005_AgeFactorPageValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:13:08 INFO  TC005_AgeFactorPageValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:13:08 INFO  TC005_AgeFactorPageValidationTest:55 - TC005_AgeFactorPageValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:67 - TC005_AgeFactorPageValidationTest - Starting test: isHeadingPresent
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:119 - isHeadingPresent - PASSED
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:78 - TC005_AgeFactorPageValidationTest - Starting test: isInfoPresent
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:119 - isInfoPresent - PASSED
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:89 - TC005_AgeFactorPageValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:101 - TC005_AgeFactorPageValidationTest - Starting test: goToHome
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:119 - goToHome - PASSED
-2026-01-28 10:13:09 INFO  TC005_AgeFactorPageValidationTest:113 - TC005_AgeFactorPageValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:13:10 INFO  TC005_AgeFactorPageValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:13:10 INFO  TC005_AgeFactorPageValidationTest:125 - TC005_AgeFactorPageValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:13:10 INFO  TC005_AgeFactorPageValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:13:10 INFO  TC005_AgeFactorPageValidationTest:137 - TC005_AgeFactorPageValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:13:10 INFO  TC005_AgeFactorPageValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:13:14 INFO  TC005_AgeFactorPageValidationTest:106 - Driver quit successfully
-2026-01-28 10:13:21 INFO  TC006_TeamDetailsPageValidationTest:30 - TC006_TeamDetailsPageValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:13:21 INFO  TC006_TeamDetailsPageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:13:21 INFO  TC006_TeamDetailsPageValidationTest:44 - TC006_TeamDetailsPageValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:13:21 INFO  TC006_TeamDetailsPageValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:13:21 INFO  TC006_TeamDetailsPageValidationTest:55 - TC006_TeamDetailsPageValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:67 - TC006_TeamDetailsPageValidationTest - Starting test: isHeadingPresent
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:119 - isHeadingPresent - PASSED
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:78 - TC006_TeamDetailsPageValidationTest - Starting test: isTeamDetailsPresent
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:119 - isTeamDetailsPresent - PASSED
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:89 - TC006_TeamDetailsPageValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:101 - TC006_TeamDetailsPageValidationTest - Starting test: goToHome
-2026-01-28 10:13:22 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHome - PASSED
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:113 - TC006_TeamDetailsPageValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:125 - TC006_TeamDetailsPageValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:137 - TC006_TeamDetailsPageValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:13:23 INFO  TC006_TeamDetailsPageValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:13:27 INFO  TC006_TeamDetailsPageValidationTest:106 - Driver quit successfully
-2026-01-28 10:13:33 INFO  TC007_CalculatorValidationTest:39 - TC007_CalculatorValidationTest - Starting test: URLAndTitle_Matched
-2026-01-28 10:13:33 INFO  TC007_CalculatorValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:13:33 INFO  TC007_CalculatorValidationTest:53 - TC007_CalculatorValidationTest - Starting test: isHeaderPresent
-2026-01-28 10:13:34 INFO  TC007_CalculatorValidationTest:119 - isHeaderPresent - PASSED
-2026-01-28 10:13:34 INFO  TC007_CalculatorValidationTest:64 - TC007_CalculatorValidationTest - Starting test: goToHomeViaLogoText
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:76 - TC007_CalculatorValidationTest - Starting test: goToHome
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:119 - goToHome - PASSED
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:88 - TC007_CalculatorValidationTest - Starting test: goToHeartPulse
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:119 - goToHeartPulse - PASSED
-2026-01-28 10:13:35 INFO  TC007_CalculatorValidationTest:100 - TC007_CalculatorValidationTest - Starting test: goToBloodPressure
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:119 - goToBloodPressure - PASSED
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:112 - TC007_CalculatorValidationTest - Starting test: goToAgeFactor
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:119 - goToAgeFactor - PASSED
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:124 - TC007_CalculatorValidationTest - Starting test: goToTeamDetails
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:119 - goToTeamDetails - PASSED
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:136 - TC007_CalculatorValidationTest - Starting test: isLeftImagePresent
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:119 - isLeftImagePresent - PASSED
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:147 - TC007_CalculatorValidationTest - Starting test: isCalculatorFormPresent
-2026-01-28 10:13:36 INFO  TC007_CalculatorValidationTest:119 - isCalculatorFormPresent - PASSED
-2026-01-28 10:13:37 INFO  TC007_CalculatorValidationTest:158 - TC007_CalculatorValidationTest - Starting test: hasCalculatorFieldsAndWorking
-2026-01-28 10:13:37 INFO  TC007_CalculatorValidationTest:119 - hasCalculatorFieldsAndWorking - PASSED
-2026-01-28 10:13:47 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:13:47 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 0
-2026-01-28 10:13:47 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 60
-2026-01-28 10:13:47 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 70/31
-2026-01-28 10:13:47 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 1
-2026-01-28 10:13:48 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
-2026-01-28 10:13:49 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 120/80
-2026-01-28 10:13:49 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:13:50 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:13:54 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 69.5
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 25
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 160/91
-2026-01-28 10:13:54 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:13:55 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:13:58 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:13:58 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:13:58 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:53:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457212\IdeaProjects\HIC\master.xml
+
+2026-01-29 10:54:04 INFO  TC001_URL_ValidationTest:30 - TC001_URL_ValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:54:04 INFO  TC001_URL_ValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:54:04 INFO  TC001_URL_ValidationTest:45 - TC001_URL_ValidationTest - Starting test: urlWorking
+2026-01-29 10:54:05 INFO  TC001_URL_ValidationTest:119 - urlWorking - PASSED
+2026-01-29 10:54:08 INFO  TC001_URL_ValidationTest:106 - Driver quit successfully
+2026-01-29 10:54:15 INFO  TC002_HomePageValidationTest:32 - TC002_HomePageValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:54:15 INFO  TC002_HomePageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:54:16 INFO  TC002_HomePageValidationTest:46 - TC002_HomePageValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:54:16 INFO  TC002_HomePageValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:54:16 INFO  TC002_HomePageValidationTest:57 - TC002_HomePageValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:69 - TC002_HomePageValidationTest - Starting test: goToHome
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:119 - goToHome - PASSED
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:81 - TC002_HomePageValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:54:17 INFO  TC002_HomePageValidationTest:93 - TC002_HomePageValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:105 - TC002_HomePageValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:117 - TC002_HomePageValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:129 - TC002_HomePageValidationTest - Starting test: isLeftImagePresent
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:119 - isLeftImagePresent - PASSED
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:140 - TC002_HomePageValidationTest - Starting test: isCalculatorFormPresent
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:119 - isCalculatorFormPresent - PASSED
+2026-01-29 10:54:18 INFO  TC002_HomePageValidationTest:151 - TC002_HomePageValidationTest - Starting test: hasCalculatorFieldsAndWorking
+2026-01-29 10:54:19 INFO  TC002_HomePageValidationTest:119 - hasCalculatorFieldsAndWorking - PASSED
+2026-01-29 10:54:23 INFO  TC002_HomePageValidationTest:106 - Driver quit successfully
+2026-01-29 10:54:29 INFO  TC003_HeartPulsePageValidationTest:30 - TC003_HeartPulsePageValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:54:30 INFO  TC003_HeartPulsePageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:54:30 INFO  TC003_HeartPulsePageValidationTest:44 - TC003_HeartPulsePageValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:54:30 INFO  TC003_HeartPulsePageValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:54:30 INFO  TC003_HeartPulsePageValidationTest:55 - TC003_HeartPulsePageValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:67 - TC003_HeartPulsePageValidationTest - Starting test: isHeadingPresent
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:119 - isHeadingPresent - PASSED
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:78 - TC003_HeartPulsePageValidationTest - Starting test: isSubHeadingPresent
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:119 - isSubHeadingPresent - PASSED
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:89 - TC003_HeartPulsePageValidationTest - Starting test: isInfoPresent
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:119 - isInfoPresent - PASSED
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:100 - TC003_HeartPulsePageValidationTest - Starting test: isTablePresent
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:119 - isTablePresent - PASSED
+2026-01-29 10:54:31 INFO  TC003_HeartPulsePageValidationTest:111 - TC003_HeartPulsePageValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:54:32 INFO  TC003_HeartPulsePageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:54:32 INFO  TC003_HeartPulsePageValidationTest:123 - TC003_HeartPulsePageValidationTest - Starting test: goToHome
+2026-01-29 10:54:32 INFO  TC003_HeartPulsePageValidationTest:119 - goToHome - PASSED
+2026-01-29 10:54:32 INFO  TC003_HeartPulsePageValidationTest:135 - TC003_HeartPulsePageValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:54:33 INFO  TC003_HeartPulsePageValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:54:33 INFO  TC003_HeartPulsePageValidationTest:147 - TC003_HeartPulsePageValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:54:33 INFO  TC003_HeartPulsePageValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:54:33 INFO  TC003_HeartPulsePageValidationTest:159 - TC003_HeartPulsePageValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:54:33 INFO  TC003_HeartPulsePageValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:54:39 INFO  TC003_HeartPulsePageValidationTest:106 - Driver quit successfully
+2026-01-29 10:54:46 INFO  TC004_BloodPressurePageValidationTest:30 - TC004_BloodPressurePageValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:54:46 INFO  TC004_BloodPressurePageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:54:46 INFO  TC004_BloodPressurePageValidationTest:45 - TC004_BloodPressurePageValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:56 - TC004_BloodPressurePageValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:69 - TC004_BloodPressurePageValidationTest - Starting test: isHeadingPresent
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:119 - isHeadingPresent - PASSED
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:80 - TC004_BloodPressurePageValidationTest - Starting test: isInfoPresent
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:119 - isInfoPresent - PASSED
+2026-01-29 10:54:47 INFO  TC004_BloodPressurePageValidationTest:91 - TC004_BloodPressurePageValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:104 - TC004_BloodPressurePageValidationTest - Starting test: goToHome
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:119 - goToHome - PASSED
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:117 - TC004_BloodPressurePageValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:130 - TC004_BloodPressurePageValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:54:48 INFO  TC004_BloodPressurePageValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:54:49 INFO  TC004_BloodPressurePageValidationTest:143 - TC004_BloodPressurePageValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:54:49 INFO  TC004_BloodPressurePageValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:54:53 INFO  TC004_BloodPressurePageValidationTest:106 - Driver quit successfully
+2026-01-29 10:54:58 INFO  TC005_AgeFactorPageValidationTest:30 - TC005_AgeFactorPageValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:54:58 INFO  TC005_AgeFactorPageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:54:58 INFO  TC005_AgeFactorPageValidationTest:44 - TC005_AgeFactorPageValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:54:58 INFO  TC005_AgeFactorPageValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:54:58 INFO  TC005_AgeFactorPageValidationTest:55 - TC005_AgeFactorPageValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:67 - TC005_AgeFactorPageValidationTest - Starting test: isHeadingPresent
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:119 - isHeadingPresent - PASSED
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:78 - TC005_AgeFactorPageValidationTest - Starting test: isInfoPresent
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:119 - isInfoPresent - PASSED
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:89 - TC005_AgeFactorPageValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:101 - TC005_AgeFactorPageValidationTest - Starting test: goToHome
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:119 - goToHome - PASSED
+2026-01-29 10:54:59 INFO  TC005_AgeFactorPageValidationTest:113 - TC005_AgeFactorPageValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:55:00 INFO  TC005_AgeFactorPageValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:55:00 INFO  TC005_AgeFactorPageValidationTest:125 - TC005_AgeFactorPageValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:55:00 INFO  TC005_AgeFactorPageValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:55:00 INFO  TC005_AgeFactorPageValidationTest:137 - TC005_AgeFactorPageValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:55:00 INFO  TC005_AgeFactorPageValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:55:04 INFO  TC005_AgeFactorPageValidationTest:106 - Driver quit successfully
+2026-01-29 10:55:09 INFO  TC006_TeamDetailsPageValidationTest:30 - TC006_TeamDetailsPageValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:55:09 INFO  TC006_TeamDetailsPageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:55:09 INFO  TC006_TeamDetailsPageValidationTest:44 - TC006_TeamDetailsPageValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:55:09 INFO  TC006_TeamDetailsPageValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:55:09 INFO  TC006_TeamDetailsPageValidationTest:55 - TC006_TeamDetailsPageValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:67 - TC006_TeamDetailsPageValidationTest - Starting test: isHeadingPresent
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:119 - isHeadingPresent - PASSED
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:78 - TC006_TeamDetailsPageValidationTest - Starting test: isTeamDetailsPresent
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:119 - isTeamDetailsPresent - PASSED
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:89 - TC006_TeamDetailsPageValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:55:10 INFO  TC006_TeamDetailsPageValidationTest:101 - TC006_TeamDetailsPageValidationTest - Starting test: goToHome
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHome - PASSED
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:113 - TC006_TeamDetailsPageValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:125 - TC006_TeamDetailsPageValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:137 - TC006_TeamDetailsPageValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:55:11 INFO  TC006_TeamDetailsPageValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:55:14 INFO  TC006_TeamDetailsPageValidationTest:106 - Driver quit successfully
+2026-01-29 10:55:19 INFO  TC007_CalculatorValidationTest:39 - TC007_CalculatorValidationTest - Starting test: URLAndTitle_Matched
+2026-01-29 10:55:19 INFO  TC007_CalculatorValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:55:19 INFO  TC007_CalculatorValidationTest:53 - TC007_CalculatorValidationTest - Starting test: isHeaderPresent
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:119 - isHeaderPresent - PASSED
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:64 - TC007_CalculatorValidationTest - Starting test: goToHomeViaLogoText
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:76 - TC007_CalculatorValidationTest - Starting test: goToHome
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:119 - goToHome - PASSED
+2026-01-29 10:55:20 INFO  TC007_CalculatorValidationTest:88 - TC007_CalculatorValidationTest - Starting test: goToHeartPulse
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:119 - goToHeartPulse - PASSED
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:100 - TC007_CalculatorValidationTest - Starting test: goToBloodPressure
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:119 - goToBloodPressure - PASSED
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:112 - TC007_CalculatorValidationTest - Starting test: goToAgeFactor
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:119 - goToAgeFactor - PASSED
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:124 - TC007_CalculatorValidationTest - Starting test: goToTeamDetails
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:119 - goToTeamDetails - PASSED
+2026-01-29 10:55:21 INFO  TC007_CalculatorValidationTest:136 - TC007_CalculatorValidationTest - Starting test: isLeftImagePresent
+2026-01-29 10:55:22 INFO  TC007_CalculatorValidationTest:119 - isLeftImagePresent - PASSED
+2026-01-29 10:55:22 INFO  TC007_CalculatorValidationTest:147 - TC007_CalculatorValidationTest - Starting test: isCalculatorFormPresent
+2026-01-29 10:55:22 INFO  TC007_CalculatorValidationTest:119 - isCalculatorFormPresent - PASSED
+2026-01-29 10:55:22 INFO  TC007_CalculatorValidationTest:158 - TC007_CalculatorValidationTest - Starting test: hasCalculatorFieldsAndWorking
+2026-01-29 10:55:22 INFO  TC007_CalculatorValidationTest:119 - hasCalculatorFieldsAndWorking - PASSED
+2026-01-29 10:55:31 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:31 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 0
+2026-01-29 10:55:31 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 60
+2026-01-29 10:55:31 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 70/31
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 1
+2026-01-29 10:55:32 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
+2026-01-29 10:55:33 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 120/80
+2026-01-29 10:55:33 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:34 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:37 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 69.5
+2026-01-29 10:55:37 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 25
+2026-01-29 10:55:38 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 160/91
+2026-01-29 10:55:38 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:38 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:41 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:55:41 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:55:41 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:55:41 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:55:41 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:55:41 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:55:42 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:13:58 INFO  TC007_CalculatorValidationTest:177 - Entering Age: -20
-2026-01-28 10:13:59 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 26
-2026-01-28 10:13:59 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 170/90
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 130
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 27
-2026-01-28 10:14:00 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/60
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:177 - Entering Age: abc
-2026-01-28 10:14:01 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 85
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 135/70
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
-2026-01-28 10:14:02 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 60
-2026-01-28 10:14:03 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 160/70
-2026-01-28 10:14:03 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:03 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:07 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: -25
-2026-01-28 10:14:07 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 165/75
-2026-01-28 10:14:08 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:08 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:11 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:11 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:11 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:11 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:14:11 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:14:11 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:14:12 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:55:42 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:42 INFO  TC007_CalculatorValidationTest:177 - Entering Age: -20
+2026-01-29 10:55:42 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 26
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 170/90
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:43 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 130
+2026-01-29 10:55:44 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 27
+2026-01-29 10:55:44 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/60
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:177 - Entering Age: abc
+2026-01-29 10:55:45 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 85
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 135/70
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:46 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
+2026-01-29 10:55:47 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 60
+2026-01-29 10:55:47 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 160/70
+2026-01-29 10:55:47 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:48 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:51 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: -25
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 165/75
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:51 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:54 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:55:54 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:55:54 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:55:54 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:55:54 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:55:54 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:55:55 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:14:12 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:12 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 45
-2026-01-28 10:14:12 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: abc
-2026-01-28 10:14:12 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 130/85
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
-2026-01-28 10:14:13 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 69.5
-2026-01-28 10:14:14 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/82
-2026-01-28 10:14:14 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:14 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:17 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:17 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:17 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:17 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:14:17 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:14:17 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:14:18 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 45
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: abc
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 130/85
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 69.5
+2026-01-29 10:55:55 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/82
+2026-01-29 10:55:56 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:55:56 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:55:59 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:55:59 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:55:59 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:14:18 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:18 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
-2026-01-28 10:14:18 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
-2026-01-28 10:14:19 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/70
-2026-01-28 10:14:19 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:19 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:22 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:22 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
-2026-01-28 10:14:23 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 0
-2026-01-28 10:14:23 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 145/70
-2026-01-28 10:14:23 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:24 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:27 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:14:27 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:14:27 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
+2026-01-29 10:55:59 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/70
+2026-01-29 10:56:00 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:00 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:03 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 0
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 145/70
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:03 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:06 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:06 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:06 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:06 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:56:06 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:56:06 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:56:07 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:27 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
-2026-01-28 10:14:28 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 9000
-2026-01-28 10:14:28 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/60
-2026-01-28 10:14:28 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:28 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:32 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:14:32 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:14:32 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 50
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 9000
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/60
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:07 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:10 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:10 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:10 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:10 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:56:10 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:56:10 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:56:11 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 30
-2026-01-28 10:14:32 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
-2026-01-28 10:14:33 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/70
-2026-01-28 10:14:33 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:33 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:36 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:36 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:36 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:36 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
-2026-01-28 10:14:36 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
-2026-01-28 10:14:36 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 29
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 120/Eighty
-2026-01-28 10:14:37 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 10
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 62
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: One hundred and twenty /200
-2026-01-28 10:14:38 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 18
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
-2026-01-28 10:14:39 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 135.5/65
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 18
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
-2026-01-28 10:14:40 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 155/62.7
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 19
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 82
-2026-01-28 10:14:41 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 0/0
-2026-01-28 10:14:42 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:42 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:45 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
-2026-01-28 10:14:45 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
-2026-01-28 10:14:45 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 30
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 140/70
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:11 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:15 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 29
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 70
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 120/Eighty
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 10
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 62
+2026-01-29 10:56:15 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: One hundred and twenty /200
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 18
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 135.5/65
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 18
+2026-01-29 10:56:16 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 155/62.7
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 19
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 82
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 0/0
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:17 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:20 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:20 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:20 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:20 INFO  TC007_CalculatorValidationTest:241 - Expecting no navigation to result page for invalid inputs
+2026-01-29 10:56:20 ERROR TC007_CalculatorValidationTest:244 - Unexpected navigation to result page for invalid inputs
+2026-01-29 10:56:20 INFO  TC007_CalculatorValidationTest:246 - Navigating back to the previous page
+2026-01-29 10:56:21 ERROR TC007_CalculatorValidationTest:122 - setDataAndCalculate - FAILED: java.lang.AssertionError: The following asserts failed:
 	Invalid inputs navigated to the result page
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:45 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
-2026-01-28 10:14:46 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
-2026-01-28 10:14:46 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125-82
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 27
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 67
-2026-01-28 10:14:47 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: /85
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 27
-2026-01-28 10:14:48 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 67
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:49 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 37
-2026-01-28 10:14:50 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 77
-2026-01-28 10:14:50 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/82
-2026-01-28 10:14:50 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:51 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:54 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 37
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 77
-2026-01-28 10:14:54 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 136
-2026-01-28 10:14:55 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
-2026-01-28 10:14:55 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
-2026-01-28 10:14:55 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
-2026-01-28 10:14:55 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
-2026-01-28 10:14:55 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
-2026-01-28 10:15:00 INFO  TC007_CalculatorValidationTest:106 - Driver quit successfully
-2026-01-28 10:15:07 INFO  TC008_ResultPageValidationTest:40 - TC008_ResultPageValidationTest- Starting test: URLAndTitle_Matched
-2026-01-28 10:15:07 INFO  TC008_ResultPageValidationTest:119 - URLAndTitle_Matched - PASSED
-2026-01-28 10:15:07 INFO  TC008_ResultPageValidationTest:54 - TC008_ResultPageValidationTest- Starting test: isCalculatorFormPresent
-2026-01-28 10:15:07 INFO  TC008_ResultPageValidationTest:119 - isCalculatorFormPresent - PASSED
-2026-01-28 10:15:07 INFO  TC008_ResultPageValidationTest:67 - TC008_ResultPageValidationTest - Starting test: puttingCalculatorFieldsAndNavigatingToResultPage
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:119 - puttingCalculatorFieldsAndNavigatingToResultPage - PASSED
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:99 - TC008_ResultPageValidationTest - Starting test: resultPageUICheck
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:119 - resultPageUICheck - PASSED
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:114 - TC008_ResultPageValidationTest - Starting test: isScrollable
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:119 - isScrollable - PASSED
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:133 - TC008_ResultPageValidationTest - Starting test: isResizable
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:119 - isResizable - PASSED
-2026-01-28 10:15:09 INFO  TC008_ResultPageValidationTest:150 - TC008_ResultPageValidationTest- Starting test: goToHomeViaLogoText
-2026-01-28 10:15:10 INFO  TC008_ResultPageValidationTest:119 - goToHomeViaLogoText - PASSED
-2026-01-28 10:15:14 INFO  TC008_ResultPageValidationTest:106 - Driver quit successfully
+2026-01-29 10:56:21 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:21 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 25
+2026-01-29 10:56:21 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 72
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125-82
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 27
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 67
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: /85
+2026-01-29 10:56:22 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 27
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 67
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/
+2026-01-29 10:56:23 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 37
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 77
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 125/82
+2026-01-29 10:56:24 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:25 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:28 ERROR TC007_CalculatorValidationTest:203 - No alert appeared within timeout
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:223 - No alert appeared. Verifying navigation result.
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:226 - Current URL: https://hackvyatharth.github.io/Vitalguard_Team_Vanguardians/result.html
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:229 - Expecting navigation to result page for valid inputs
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:232 - Navigation to result page succeeded for valid inputs
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:234 - Navigating back to the previous page
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:173 - TC007_CalculatorValidationTest - Starting test: setDataAndCalculate
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:177 - Entering Age: 37
+2026-01-29 10:56:28 INFO  TC007_CalculatorValidationTest:180 - Entering Pulse Rate: 77
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:183 - Entering Blood Pressure: 136
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:193 - Clicking Calculate button
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:199 - Waiting for alert presence (3 seconds)
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:210 - Alert appeared. Accepting alert.
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:213 - Alert appeared for invalid inputs as expected
+2026-01-29 10:56:29 INFO  TC007_CalculatorValidationTest:119 - setDataAndCalculate - PASSED
+2026-01-29 10:56:33 INFO  TC007_CalculatorValidationTest:106 - Driver quit successfully
+2026-01-29 10:56:37 INFO  TC008_ResultPageValidationTest:40 - TC008_ResultPageValidationTest- Starting test: URLAndTitle_Matched
+2026-01-29 10:56:37 INFO  TC008_ResultPageValidationTest:119 - URLAndTitle_Matched - PASSED
+2026-01-29 10:56:37 INFO  TC008_ResultPageValidationTest:54 - TC008_ResultPageValidationTest- Starting test: isCalculatorFormPresent
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:119 - isCalculatorFormPresent - PASSED
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:67 - TC008_ResultPageValidationTest - Starting test: puttingCalculatorFieldsAndNavigatingToResultPage
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:119 - puttingCalculatorFieldsAndNavigatingToResultPage - PASSED
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:99 - TC008_ResultPageValidationTest - Starting test: resultPageUICheck
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:119 - resultPageUICheck - PASSED
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:114 - TC008_ResultPageValidationTest - Starting test: isScrollable
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:119 - isScrollable - PASSED
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:133 - TC008_ResultPageValidationTest - Starting test: isResizable
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:119 - isResizable - PASSED
+2026-01-29 10:56:38 INFO  TC008_ResultPageValidationTest:150 - TC008_ResultPageValidationTest- Starting test: goToHomeViaLogoText
+2026-01-29 10:56:39 INFO  TC008_ResultPageValidationTest:119 - goToHomeViaLogoText - PASSED
+2026-01-29 10:56:41 INFO  TC008_ResultPageValidationTest:106 - Driver quit successfully
