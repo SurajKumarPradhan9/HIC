@@ -9,7 +9,7 @@
 
         <parameter name="os" value="windows"/>
         <!--Cross Browser Testing(Just change the value of browser(chrome,edge,firefox..etc))-->
-        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="edge"/>
 
 <!--        <packages>-->
 <!--            <package name="testCases"/>-->
